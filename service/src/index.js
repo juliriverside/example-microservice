@@ -48,7 +48,7 @@ async function main() {
 }
 
 main()
-  .then(() => console.log("test Online"))
+  .then(() => console.log("Online"))
   .catch((err) => {
     console.error("Failed to start!");
     console.error((err && err.stack) || err);
